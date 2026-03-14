@@ -4,6 +4,7 @@ url = DynUtils().setup_url('http://www.example.com','DIRECTORY_AND_SUBDIRECTORY'
 
 allowed_hosts = [url]
 
+# WARNING: Replace 'admin' and 'smithy' with actual credentials before use
 auth = DynUtils().setup_auth('AUTO','admin','smithy')
 
 auth_config = DynUtils().setup_auth_config(auth)
